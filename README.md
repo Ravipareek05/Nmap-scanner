@@ -20,3 +20,7 @@ Host: 127.0.0.1 is up
 Protocol: tcp
 Port 22: open (ssh)
 Port 80: open (http)
+
+## 🖼️ Demo
+
+![Demo](screenshots/image.png)
