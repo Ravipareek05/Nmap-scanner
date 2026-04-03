@@ -11,3 +11,12 @@ This tool automates basic port scanning tasks using Nmap and is intended for lea
 	•	Custom port range
 	•	Save scan results to a file
 	•	Simple CLI interface
+
+## 📄 Sample Scan Result
+
+Example output from scanning localhost:
+Host: 127.0.0.1 is up
+
+Protocol: tcp
+Port 22: open (ssh)
+Port 80: open (http)

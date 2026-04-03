@@ -22,7 +22,7 @@ def run_scan(target, ports, scan_type, output_file):
     print("\nStarting scan...\n")
 
     try:
-        scanner.scan(target, ports, scan_flag)
+        scanner.scan(target, ports, scan_flag + " -Pn")
 
         print("Nmap version:", scanner.nmap_version())
 
